@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [DMSSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="SanityTest(failed)">
+    <classes>
+      <class name="adminlogin.Organisational_HierarchyTest">
+        <methods>
+          <include name="deleteChannelHead"/>
+          <include name="deleteRSM"/>
+          <include name="deleteLOB"/>
+          <include name="deleteZSM"/>
+          <include name="deleteASM"/>
+          <include name="deleteCRO"/>
+        </methods>
+      </class> <!-- adminlogin.Organisational_HierarchyTest -->
+      <class name="adminlogin.ReferenceMasterTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="deleteDistType"/>
+          <include name="deleteState"/>
+          <include name="deletePaymentMode"/>
+          <include name="deleteCity"/>
+          <include name="deletePaymentTerm"/>
+        </methods>
+      </class> <!-- adminlogin.ReferenceMasterTest -->
+    </classes>
+  </test> <!-- SanityTest(failed) -->
+</suite> <!-- Failed suite [DMSSuite] -->
